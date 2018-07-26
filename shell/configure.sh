@@ -43,4 +43,5 @@ if [ -e "${HOME}/.config/powerline/themes/shell/default.json" ]; then
   mv "${HOME}/.config/powerline/themes/shell/default.json" "${HOME}/.config/powerline/themes/shell/default.json.bak"
 fi
 
+mkdir -p "${HOME}/.config/powerline/themes/shell"
 cp "default.json" "${HOME}/.config/powerline/themes/shell/default.json"
